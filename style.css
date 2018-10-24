@@ -1,8 +1,33 @@
-li {
-    margin: 10px;
-    margin-left: 20px;
-    
+body{
+    font-family: 'Times New Roman';
 }
+.female{
+    color:blue;
+}
+.male{
+    color:red;
+}
+.female.bold{
+font-weight: bold}
+
+
+.female.ital{
+    font-style: italic;
+}
+
+.male.ital{
+    font-style: italic;
+}
+
 ol {
     margin-top: 50px;
+}
+
+#middlemarch{
+    list-style-type: lower-roman;
+    margin-bottom: 100px;
+    margin-right: 10px;
+}
+#taletwocities{ 
+    list-style-type: lower-alpha;
 }
